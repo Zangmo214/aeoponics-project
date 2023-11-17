@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+footer {
+   background-color: lightblue
+}
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+ @media (max-width:600px) {
+    #parentContainer {
+        background-color: lightgreen;
+        padding: 10px;
+        font-family: 'Cardo', serif;
+    }
+    
+    .baby {
+        height:400px;
+        background-image: url("aero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        filter: blur(2px);
+    }
+    #childOne {
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        background-color: lightgreen;
+    }
+    h3, h1{
+        font-family: 'Dancing Script', cursive;
+         text-align: center;
+         color: cyan;
+         position: relative;
+         bottom: 200px;
+     }
+     p {
+        padding: 40px;
+        text-align: justify;
+     }
+     #childThree > img {
+        width: 70%;
+        margin-left: 70px;
+        padding: 5px;
+     }
+     #childTwo > img {
+        width: 60%;
+        margin-left: 90px;
+        padding: 5px;
+     }
+    h2 {
+        color: cornflowerblue;
+        text-align: center;
+        padding: 10px;
+    }
+     .background {
+        height: 400px;
+        background-image: url("image\ of\ aero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        filter: blur(2px);
+     }
+     button {
+        display: block;
+        margin-left: 180px;
+        background-color: lightblue;
+        border-radius: 20px;
+        padding: 5px;
+        margin-bottom: 30px;
+        border: 1px solid white;
+     }
+     button:hover {
+      background-color: lightskyblue;
+      transform: scale(1.2);
+      transition-duration: 2s;
+     }
+    
+     #video{
+        width: 70%;
+        margin-left: 80px;
+     }
+     footer {
+        /* height: 100vh; */
+        outline: 1px solid lightgreen;
+        text-align: center;
+        background-color: lightblue;
+     }
+     ul {
+        list-style-type: none;
+     }
+     li{
+        padding: 0 10px;
+     }
+     iframe {
+        width: 100%;
+        /* height: 300px; */
+     }
+     #more {
+        display: none;
+    }
+     
+ }
+
+ /* tablet view */
+ @media (min-width:601px) and (max-width:768px) {
+   #parentContainer {
+      background-color: lightgreen;
+      padding: 10px;
+      font-family: 'Cardo', serif;
+  }
+  
+  .baby {
+      height:70vh;
+      background-image: url("aero.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      filter: blur(2px);
+  }
+  #childOne {
+   width: 100%;
+   display: inline-block;
+   align-items: center;
+   background-color: lightgreen;
+}
+h3, h1{
+   font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: cyan;
+    position: relative;
+    bottom: 200px;
+}
+.background {
+   height: 70vh;
+   background-image: url("image\ of\ aero.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   filter: blur(2px);
+}
+p {
+   padding: 40px;
+   text-align: justify;
+}
+#childTwo > img {
+   width: 40%;
+}
+#childTwo {
+   display: flex;
+}
+h2 {
+   text-align: center;
+   padding: 10px;
+}
+button {
+   display: block;
+   margin-left: 300px;
+   background-color: lightblue;
+   border-radius: 20px;
+   padding: 5px;
+   margin-bottom: 30px;
+   border: 1px solid white;
+}
+button:hover {
+ background-color: lightskyblue;
+ transform: scale(1.2);
+ transition-duration: 2s;
+}
+#childThree {
+   display: flex;
+   flex-direction: row-reverse;
+}
+#childThree > img {
+   width: 40%;
+}
+#video {
+   width: 70%;
+   margin-left: 100px;
+}
+footer {
+   text-align: center;
+}
+ ul {
+   list-style-type: none;
+}
+ }
+
+
+ /* laptop view */
+ @media (min-width:769px) and (max-width:992px) {
+   #parentContainer {
+      background-color: lightgreen;
+      padding: 10px;
+      font-family: 'Cardo', serif;
+  }
+  
+  .baby {
+      height:70vh;
+      background-image: url("aero.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      filter: blur(2px);
+  }
+  #childOne {
+   width: 100%;
+   display: inline-block;
+   align-items: center;
+   background-color: lightgreen;
+}
+h3, h1{
+   font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: cyan;
+    position: relative;
+    bottom: 200px;
+}
+p {
+   padding: 40px;
+   text-align: justify;
+}
+.background {
+   height: 70vh;
+   background-image: url("image\ of\ aero.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   filter: blur(2px);
+}
+#childTwo > img {
+   width: 40%;
+}
+#childTwo {
+   display: flex;
+}
+h2 {
+   text-align: center;
+   padding: 10px;
+}
+button {
+   display: block;
+   margin-left: 500px;
+   background-color: lightblue;
+   border-radius: 20px;
+   padding: 5px;
+   margin-bottom: 40px;
+   border: 1px solid white;
+}
+button:hover {
+ background-color: lightskyblue;
+ transform: scale(1.2);
+ transition-duration: 2s;
+}
+#childThree {
+   display: flex;
+   flex-direction: row-reverse;
+}
+#childThree > img {
+   width: 40%;
+}
+#video {
+   width: 70%;
+   margin-left: 100px;
+}
+footer {
+   text-align: center;
+}
+iframe {
+   width: 100%;
+}
+ ul {
+   list-style-type: none;
+}
+ }
+
+
+ /* brower layout */
+ @media (min-width:993px) and (max-width:1200px) {
+   #parentContainer {
+      background-color: lightgreen;
+      padding: 10px;
+      font-family: 'Cardo', serif;
+  }
+  #childOne {
+   width: 100%;
+   display: inline-block;
+   align-items: center;
+   background-color: lightgreen;
+}
+.background {
+   height: 70vh;
+   background-image: url("image\ of\ aero.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   filter: blur(2px);
+}
+h3, h1{
+   font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: cyan;
+    position: relative;
+    bottom: 200px;
+}
+p {
+   padding: 40px;
+   text-align: justify;
+}
+
+#childTwo > img {
+   width: 40%;
+}
+#childTwo {
+   display: flex;
+}
+h2 {
+   text-align: center;
+   padding: 10px;
+}
+button {
+   display: block;
+   margin-left: 700px;
+   background-color: lightblue;
+   border-radius: 20px;
+   padding: 5px;
+   margin-bottom: 50px;
+   border: 1px solid white;
+}
+button:hover {
+ background-color: lightskyblue;
+ transform: scale(1.2);
+ transition-duration: 2s;
+}
+#childThree {
+   display: flex;
+   flex-direction: row-reverse;
+}
+#childThree > img {
+   width: 40%;
+}
+.baby {
+   height:70vh;
+   background-image: url("aero.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   filter: blur(2px);
+}
+#video {
+   width: 70%;
+   margin-left: 170px;
+}
+footer {
+   text-align: center;
+}
+iframe {
+   width: 100%;
+}
+ ul {
+   list-style-type: none;
+}
+ }
+
+ @media (min-width:1201px) {
+   #parentContainer {
+      background-color: lightgreen;
+      padding: 10px;
+      font-family: 'Cardo', serif;
+  }
+
+  #childOne {
+   width: 100%;
+   display: inline-block;
+   align-items: center;
+   background-color: lightgreen;
+}
+.background {
+   height: 70vh;
+   background-image: url("image\ of\ aero.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   filter: blur(2px);
+}
+h3, h1{
+   font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: cyan;
+    position: relative;
+    bottom: 200px;
+}
+p {
+   padding: 40px;
+   text-align: justify;
+}
+
+#childTwo > img {
+   width: 40%;
+}
+#childTwo {
+   display: flex;
+}
+h2 {
+   text-align: center;
+   padding: 10px;
+}
+button {
+   display: block;
+   margin-left: 700px;
+   background-color: lightblue;
+   border-radius: 20px;
+   padding: 5px;
+   margin-bottom: 50px;
+   border: 1px solid white;
+}
+button:hover {
+ background-color: lightskyblue;
+ transform: scale(1.2);
+ transition-duration: 2s;
+}
+#childThree {
+   display: flex;
+   flex-direction: row-reverse;
+}
+#childThree > img {
+   width: 40%;
+}
+.baby {
+   height:70vh;
+   background-image: url("aero.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   filter: blur(2px);
+}
+#video {
+   width: 70%;
+   margin-left: 170px;
+}
+footer {
+   text-align: center;
+}
+iframe {
+   width: 100%;
+}
+ ul {
+   list-style-type: none;
+}
+ }

@@ -1,0 +1,340 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#parent {
+  background-color: lightgreen;
+}
+.column {
+  background-color: lightgreen;
+  
+}
+
+.card {
+  width: 50%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    padding: 20px 0px;
+    margin-top: 10px;
+    display: block;
+   margin: auto;
+}
+
+.card img {
+ width: 20%;
+  object-fit: cover;
+  display: block;
+    margin: auto;
+}
+
+.card:hover{
+  background-color: lightblue;
+  transform: scale(1.1);
+  transition-duration: 2s;
+}
+
+.container {
+  padding: 0 16px;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+}
+#team {
+  background-color: lightgreen;
+}
+
+#divOne{
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height:200px;
+  position: relative;
+   }
+
+
+#divTwo{
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.link{
+    display: flex;
+   justify-content: center;
+}
+
+.title {
+  color: black;
+  font-weight: bolder;
+}
+
+span {
+  margin-left: 20px;
+}
+footer {
+  height: 550px;
+  background-color: lightblue;
+  text-align: center;
+  padding-top: 10px;
+}
+ul{
+  list-style-type: none;
+}
+
+/* phone layout */
+@media  (max-width: 600px) {
+  
+ 
+  .column {
+    width: 100%;
+    padding: 10px;
+    display: block;
+  }
+  
+  #carouselExample{
+    display: none;
+  }
+  #about {
+    padding: 10px;
+  }
+
+.card > img {
+  height:50px;
+  object-fit: cover;
+  object-position: center;
+
+}
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+}
+
+
+/* Tab layout */
+@media   (min-width:601px) and (max-width: 768px){
+ 
+.column {
+width:33.3%;
+display: flex;
+padding: 10px;
+}
+
+#about {
+padding: 10px;
+}
+
+.card > img {
+height: 50px;
+object-fit: cover;
+object-position: center;
+
+}
+footer {
+text-align: center;
+height: 125vh;
+
+}
+iframe {
+width: 100%;
+}
+}
+
+/* Laptop layout */
+@media (min-width:769px) and (max-width: 992px)  {
+
+  #about {
+    padding: 10px;
+  }
+  
+  section {
+    position: relative;
+    left: 200px ;
+   }
+.card > img {
+  height: 90%;
+  width: 50%;
+  object-fit: cover;
+  object-position: center;
+
+}
+footer {
+  text-align: center;
+  height: 125vh;
+}
+iframe {
+  width: 100%;
+
+}
+#zangmo{
+ width: 50%;
+ padding: 10px;
+ display: flex;
+}
+#yuden{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 250px;
+  padding: 10px;
+ }
+
+.card {
+  width: 70%;
+  height: 100vh;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    padding: 20px 0px;
+    margin-top: 10px;
+    display: block;
+   margin: auto;
+    }
+    
+.accordion{
+display: block;
+margin: auto;
+width: 100%;
+} 
+}  
+
+@media (min-width:993px) and (max-width: 1200px)  {
+
+#about {
+  padding: 10px;
+}
+
+section {
+  position: relative;
+  left: 200px ;
+ }
+.card > img {
+height: 90%;
+width: 50%;
+object-fit: cover;
+object-position: center;
+
+}
+footer {
+text-align: center;
+height: 125vh;
+}
+iframe {
+width: 100%;
+}
+#zangmo{
+ width: 50%;
+ padding: 10px;
+ display: flex;
+}
+#yuden{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  padding: 10px;
+ }
+
+.card {
+  width: 70%;
+  height: 100vh;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    padding: 20px 0px;
+    margin-top: 10px;
+    display: block;
+   margin: auto;
+    }
+    
+.accordion{
+display: block;
+margin: auto;
+width: 100%;
+} 
+}  
+      /* browser layout */
+      @media (min-width:1201px) {
+      
+        #about {
+          padding: 10px;
+        }
+        section {
+         position: relative;
+         left: 300px ;
+        }
+        
+      .card > img {
+        height: 90%;
+        width: 50%;
+        object-fit: cover;
+        object-position: center;
+      
+      }
+      footer {
+        text-align: center;
+        height: 125vh;
+      }
+      iframe {
+        width: 100%;
+  
+      }
+      #zangmo{
+       width: 20%;
+       padding: 10px;
+       display: flex;
+       flex-direction: row;
+      }
+      #yuden{
+        width: 20%;
+       padding: 10px;
+       display: flex;
+       flex-direction: row;
+
+       }
+      
+      .card {
+        width: 70%;
+        height: 100vh;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+          padding: 20px 0px;
+          margin-top: 10px;
+          display: block;
+         margin: auto;
+          }
+          
+    .accordion{
+      display: block;
+      margin: auto;
+      width: 100%;
+    }
+    
+     
+    }
